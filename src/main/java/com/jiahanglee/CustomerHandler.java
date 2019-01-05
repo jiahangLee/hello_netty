@@ -10,6 +10,7 @@ import io.netty.util.CharsetUtil;
 
 
 // 创建自定义助手类
+// 数据需要先入站到channel
 public class CustomerHandler extends SimpleChannelInboundHandler<HttpObject> {
 
     protected void channelRead0(ChannelHandlerContext ctx, HttpObject msg) throws Exception {
