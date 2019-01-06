@@ -1,4 +1,4 @@
-package com.jiahanglee;
+package com.jiahanglee.hello;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;

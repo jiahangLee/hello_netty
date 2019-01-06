@@ -1,4 +1,4 @@
-package com.jiahanglee;
+package com.jiahanglee.hello;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

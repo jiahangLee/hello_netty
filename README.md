@@ -2,8 +2,8 @@
  一、netty类
  * EventLoopGroup定义主线程和从线程组
  * ServerBootstrap创建netty服务
- * 给ServerBootstrap添加定义的主从线程组和nio双向通道以及字处理器即用于处理从线程池
- * 给ServerBootstrap绑定channel端口和设置同步方式以及关闭channel的同步方式
+    * 给ServerBootstrap添加定义的主从线程组和nio双向通道以及字处理器即用于处理从线程池
+    * 给ServerBootstrap绑定channel端口和设置同步方式以及关闭channel的同步方式
  * 最后优雅关闭主从线程组
  二、HelloServerInit（主要处理channel）
  * 初始化channel，通过channel获取ChannelPipeline
